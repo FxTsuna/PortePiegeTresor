@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>Création de Compte</title>
+	<link rel="stylesheet" type="text/css" href="../CSS/style.css">
+</head>
+
+<body>
+
+
+<div id="container">
+	<h1>Créer un compte</h1>
+	<form action="create_account.php" method="post">
+		<input type="text" name="pseudo" autocomplete="off" placeholder="Nom d'utilisateur"/>
+		<input type="password" name="mdp" autocomplete="off" placeholder="Mot de passe"/>
+		<input type="password" name="conf_mdp" autocomplete="off" placeholder="Confirmer mot de passe"/>
+		<input type="submit" name="submit" value="Inscription" class="click_button"/>
+
+	</form>
+	<button onclick="window.location.href = 'login.php';" class="right down">Se connecter</button>
+</div>
+
+
+</body>
+</html>

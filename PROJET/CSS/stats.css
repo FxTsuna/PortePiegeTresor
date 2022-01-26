@@ -1,0 +1,98 @@
+body{
+    background: #67BE4B;
+}
+
+#container{
+    width: 30%;
+    margin: auto;
+    margin-top: 10%;
+}
+
+h1{
+    width: 100%;
+    margin: auto;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+input[type=text]{
+    position: relative;
+    width: 30%;
+    margin: auto 3% 10px 0;
+    display: inline-block;
+    vertical-align: top;
+    border: 1px solid black;
+}
+
+.submit {
+    background-color: #53af57;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    cursor: pointer;
+    border: 1px solid;
+    width: 10%;
+}
+
+.submit:hover {
+    background-color: white;
+    color: #53af57;
+    border: 1px solid #53af57;
+}
+
+.stat {
+    background-color: #848484;
+    color: white;
+    cursor: pointer;
+    width: 100%;
+}
+
+.stat:hover {
+    background-color: white;
+    color: #848484;
+
+}
+
+.right {
+    position: fixed;
+    right: 1%;
+}
+
+.down {
+    position: fixed;
+    bottom: 1%;
+}
+
+.center {
+    margin: auto;
+}
+
+.top{
+	position: fixed;
+	top: 1%;
+}
+
+.left{
+    position: fixed;
+    left: 1%;
+}
+
+th.stats{
+    background-color: #2D2D2D;
+    color: grey;
+}
+
+table.stats { 
+    position: relative;
+    width: 30.2%;
+    margin: auto 3% 10px 0;
+    display: inline-block;
+    vertical-align: top;
+    border: 1px solid black;
+    text-align: center;
+}
+
+td.stats ,th.stats {
+    width: 1%;
+    border: 1px solid black;
+}
